@@ -1,8 +1,8 @@
 {
 	"name": "Langflow",
 	"build": {
-		// Path is relative to the devcontainer.json file.
 		"dockerfile": "Dockerfile"
 	},
+	"postCreateCommand": "pip install langflow",
 	"postStartCommand": "langflow run"
 }

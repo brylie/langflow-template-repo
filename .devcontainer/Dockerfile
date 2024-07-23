@@ -1,3 +1,1 @@
-FROM langflowai/langflow:latest
-
-RUN apt-install git
+FROM python:3.10-bookworm
